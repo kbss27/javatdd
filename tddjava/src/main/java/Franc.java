@@ -4,7 +4,4 @@ public class Franc extends Money{
         super(amount, currency);
     }
 
-    Money times(int multiply) {
-        return new Money(amount * multiply, currency);
-    }
 }
