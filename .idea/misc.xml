@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/effectivejava/pom.xml" />
         <option value="$PROJECT_DIR$/tddjava/pom.xml" />
+        <option value="$PROJECT_DIR$/tddxunit/pom.xml" />
       </list>
     </option>
   </component>

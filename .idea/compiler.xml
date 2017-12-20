@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="effectivejava" />
         <module name="tddjava" />
+        <module name="tddxunit" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="effectivejava" target="1.5" />
       <module name="tddjava" target="1.5" />
+      <module name="tddxunit" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
