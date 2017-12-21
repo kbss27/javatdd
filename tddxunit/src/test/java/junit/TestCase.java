@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-public class TestCase {
+public class TestCase implements Test{
     protected String methodName;
     private static final Logger logger = LoggerFactory.getLogger(TestCase.class);
 
@@ -14,7 +14,8 @@ public class TestCase {
         this.methodName = methodName;
     }
 
-    protected void run(TestResult testResult) {
+    @Override
+    public void run(TestResult testResult) {
         testResult.startTestCount();
         setUp();
         try{
@@ -40,7 +41,7 @@ public class TestCase {
 
     }
 
-    void runTestCase() throws InvocationTargetException, NoSuchMethodException, IllegalAccessException {
+    private void runTestCase() throws InvocationTargetException, NoSuchMethodException, IllegalAccessException {
         logger.info("{} execute", methodName);
         Method method = this.getClass().getMethod(methodName, null);
         method.invoke(this, null);

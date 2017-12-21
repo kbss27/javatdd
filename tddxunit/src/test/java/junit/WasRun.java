@@ -15,7 +15,7 @@ public class WasRun extends TestCase{
 
     public void testEqual() {
         long sum = base + 10;
-        Assert.assertTrue(sum == 30);
+        Assert.assertTrue(sum == 20);
     }
 
     public void testAdd() {
@@ -30,8 +30,10 @@ public class WasRun extends TestCase{
 
     public static void main(String[] args) {
         TestResult testResult = new TestResult();
-        new WasRun("testEqual").run(testResult);
-        new WasRun("testAdd").run(testResult);
+        TestSuite testSuite = new TestSuite();
+        testSuite.addTestCase(new WasRun("testEqual"));
+        testSuite.addTestCase(new WasRun("testAdd"));
+        testSuite.run(testResult);
         testResult.printTestCount();
     }
 }
