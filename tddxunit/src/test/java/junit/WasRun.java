@@ -29,7 +29,9 @@ public class WasRun extends TestCase{
     }
 
     public static void main(String[] args) {
-        new WasRun("testEqual").run();
-        new WasRun("testAdd").run();
+        TestResult testResult = new TestResult();
+        new WasRun("testEqual").run(testResult);
+        new WasRun("testAdd").run(testResult);
+        testResult.printTestCount();
     }
 }

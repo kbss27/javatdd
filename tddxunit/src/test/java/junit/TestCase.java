@@ -13,9 +13,8 @@ public class TestCase {
         this.methodName = methodName;
     }
 
-
-
-    protected void run() {
+    protected void run(TestResult testResult) {
+        testResult.startTestCount();
         setUp();
         runTestCase();
         tearDown();
