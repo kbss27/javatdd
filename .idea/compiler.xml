@@ -11,10 +11,10 @@
         <module name="tddxunit" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="effectivejava" target="1.5" />
-      <module name="tddjava" target="1.5" />
-      <module name="tddxunit" target="1.5" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="effectivejava" target="1.8" />
+      <module name="tddjava" target="1.8" />
+      <module name="tddxunit" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
