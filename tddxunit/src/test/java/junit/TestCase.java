@@ -16,12 +16,12 @@ public class TestCase {
 
 
     protected void run() {
-        before();
+        setUp();
         runTestCase();
-        after();
+        tearDown();
     }
 
-    void before() {
+    void setUp() {
 
     }
 
@@ -35,7 +35,7 @@ public class TestCase {
         }
     }
 
-    void after() {
+    void tearDown() {
 
     }
 }

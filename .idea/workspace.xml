@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48d65586-eff3-45ed-8719-e62e19255a58" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tddxunit/src/test/java/junit/TestCase.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tddxunit/target/test-classes/junit/TestCaseTest.class" afterPath="$PROJECT_DIR$/tddxunit/target/test-classes/junit/TestCaseTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tddxunit/target/test-classes/junit/WasRun.class" afterPath="$PROJECT_DIR$/tddxunit/target/test-classes/junit/WasRun.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tddxunit/src/test/java/junit/TestCaseTest.java" afterPath="$PROJECT_DIR$/tddxunit/src/test/java/junit/TestCaseTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tddxunit/src/test/java/junit/TestCase.java" afterPath="$PROJECT_DIR$/tddxunit/src/test/java/junit/TestCase.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tddxunit/src/test/java/junit/WasRun.java" afterPath="$PROJECT_DIR$/tddxunit/src/test/java/junit/WasRun.java" />
     </list>
     <ignored path="$PROJECT_DIR$/effectivejava/target/" />
@@ -36,8 +32,8 @@
           <file leaf-file-name="TestCase.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/tddxunit/src/test/java/junit/TestCase.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="398">
-                  <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+                <state relative-caret-position="270">
+                  <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#280#281#0" expanded="true" />
@@ -64,11 +60,13 @@
           <file leaf-file-name="WasRun.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/tddxunit/src/test/java/junit/WasRun.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="252">
-                  <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+                <state relative-caret-position="396">
+                  <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
                   <folding>
                     <element signature="e#92#93#0" expanded="true" />
                     <element signature="e#125#126#0" expanded="true" />
+                    <element signature="e#190#191#0" expanded="true" />
+                    <element signature="e#215#216#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -127,8 +125,8 @@
         <option value="$PROJECT_DIR$/tddxunit/src/main/java/junit/Assert.java" />
         <option value="$PROJECT_DIR$/tddxunit/src/main/java/TestCase.java" />
         <option value="$PROJECT_DIR$/tddxunit/src/test/java/junit/TestCaseTest.java" />
-        <option value="$PROJECT_DIR$/tddxunit/src/test/java/junit/WasRun.java" />
         <option value="$PROJECT_DIR$/tddxunit/src/test/java/junit/TestCase.java" />
+        <option value="$PROJECT_DIR$/tddxunit/src/test/java/junit/WasRun.java" />
       </list>
     </option>
   </component>
@@ -475,7 +473,7 @@
       <workItem from="1513558257937" duration="11792000" />
       <workItem from="1513643816798" duration="19512000" />
       <workItem from="1513725984008" duration="11562000" />
-      <workItem from="1513816679253" duration="2880000" />
+      <workItem from="1513816679253" duration="3154000" />
     </task>
     <servers />
   </component>
@@ -512,7 +510,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69214000" />
+    <option name="totallyTimeSpent" value="69488000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="0" width="1932" height="1047" extended-state="0" />
@@ -526,7 +524,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2802198" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -581,6 +579,8 @@
           <folding>
             <element signature="e#92#93#0" expanded="true" />
             <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -887,25 +887,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tddxunit/src/test/java/junit/WasRun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="e#92#93#0" expanded="true" />
-            <element signature="e#125#126#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tddxunit/src/test/java/junit/TestCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+        <state relative-caret-position="270">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#280#281#0" expanded="true" />
             <element signature="e#324#325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tddxunit/src/test/java/junit/WasRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="e#92#93#0" expanded="true" />
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
           </folding>
         </state>
       </provider>
