@@ -2,15 +2,24 @@ package junit;
 
 public class WasRun extends TestCase{
 
-    boolean wasRun;
-
     public WasRun(String methodName) {
         super(methodName);
-        wasRun = false;
     }
 
+    public void setUp() {
+    }
 
-    public void testMethod() {
-        wasRun = true;
+    public void testEqual() {
+        long sum = 10;
+        Assert.assertTrue(sum == 10);
+    }
+
+    public void testAdd() {
+        long sum = 10 + 5;
+        Assert.assertTrue(sum == 15);
+    }
+    public static void main(String[] args) {
+        new WasRun("testEqual").run();
+        new WasRun("testAdd").run();
     }
 }

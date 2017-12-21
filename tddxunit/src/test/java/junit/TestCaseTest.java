@@ -1,19 +1,21 @@
 package junit;
 
-public class TestCaseTest extends TestCase{
+public class TestCaseTest{
 
-    public TestCaseTest(String methodName) {
+/*    public TestCaseTest(String methodName) {
         super(methodName);
     }
 
-    public void testRunning(){
+    public void testRunning() {
         WasRun test = new WasRun("testMethod");
-        assert test.wasRun = false;
+        assert test.wasRun == false;
         test.run();
         assert test.wasRun == true;
     }
 
-    public static void main(String[] args) {
-        new TestCaseTest("testRunning").testRunning();
-    }
+    public void testSetUp() {
+        WasRun test = new WasRun("testMethod");
+        test.run();
+        assert test.wasSetUp == true;
+    }*/
 }
