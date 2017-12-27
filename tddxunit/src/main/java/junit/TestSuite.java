@@ -1,5 +1,7 @@
 package junit;
 
+import junit.result.TestResult;
+
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,4 +1,6 @@
-package junit;
+package junit.result;
+
+import junit.TestCase;
 
 public class TestError {
 
@@ -10,7 +12,7 @@ public class TestError {
         this.exception = exception;
     }
 
-    String getMethodName() {
+    public String getMethodName() {
         return this.testCase.getMethodName();
     }
 

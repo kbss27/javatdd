@@ -105,6 +105,13 @@ public class MoneyTest {
         assertEquals(Money.dollar(15), result);
     }
 
+//    @Test
+//    public void testMultiply() {
+//        Dollar five = new Dollar(5);
+//        five.times(2);
+//        assertEquals(10, five.amount);
+//    }
+
     @Test
     public void testSumTimes() {
         Expression fiveBucks = Money.dollar(5);

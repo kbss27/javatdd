@@ -1,4 +1,4 @@
-class Money implements Expression{
+class Money implements Expression {
 
     protected int amount;
     protected String currency;

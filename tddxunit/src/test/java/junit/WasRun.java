@@ -1,5 +1,8 @@
 package junit;
 
+import junit.assertion.Assert;
+import junit.result.TestResult;
+
 public class WasRun extends TestCase{
 
     public WasRun(String methodName) {

@@ -1,4 +1,4 @@
-package junit;
+package junit.assertion;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -8,7 +8,7 @@ public class Assert {
 
     private Assert() {}
 
-    static void assertTrue(boolean condition) {
+    public static void assertTrue(boolean condition) {
         if(!condition) {
             throw new AssertionFailedError();
         }

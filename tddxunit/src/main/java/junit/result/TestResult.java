@@ -1,5 +1,6 @@
-package junit;
+package junit.result;
 
+import junit.TestCase;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -13,13 +14,13 @@ public class TestResult {
     private List<TestFailure> failureList;
     private List<TestError> testErrorList;
 
-    TestResult() {
+    public TestResult() {
         this.testCount = 0;
         this.failureList = new ArrayList<>();
         this.testErrorList = new ArrayList<>();
     }
 
-    void startTestCount() {
+    public void startTestCount() {
         this.testCount++;
     }
 
@@ -31,7 +32,7 @@ public class TestResult {
         testErrorList.add(new TestError(testCase, e));
     }
 
-    void printTestCount() {
+    public void printTestCount() {
         logger.info("Total Test Count : {} testcount", this.testCount);
         logger.info("Total Test Success Count : {}", this.testCount - failureList.size() - testErrorList.size());
         logger.info("Total Test Failure Count : {}", failureList.size());

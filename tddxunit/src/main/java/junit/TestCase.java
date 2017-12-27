@@ -1,5 +1,7 @@
 package junit;
 
+import junit.assertion.AssertionFailedError;
+import junit.result.TestResult;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -18,9 +20,9 @@ public class TestCase implements Test{
     public void run(TestResult testResult) {
         testResult.startTestCount();
         setUp();
-        try{
+        try {
             runTestCase();
-        } catch(InvocationTargetException ite) {
+        } catch (InvocationTargetException ite) {
             if(isAssertionFailedError(ite)) {
                 testResult.addTestFailed(this);
             } else {
@@ -51,7 +53,7 @@ public class TestCase implements Test{
 
     }
 
-    String getMethodName() {
+    public String getMethodName() {
         return this.methodName;
     }
 }

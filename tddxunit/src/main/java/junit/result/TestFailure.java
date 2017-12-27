@@ -1,4 +1,6 @@
-package junit;
+package junit.result;
+
+import junit.TestCase;
 
 public class TestFailure {
     private TestCase testCase;
@@ -7,7 +9,7 @@ public class TestFailure {
         this.testCase = testCase;
     }
 
-    String getMethodName() {
+    public String getMethodName() {
         return this.testCase.getMethodName();
     }
 }
